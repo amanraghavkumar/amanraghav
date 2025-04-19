@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Aman S.</h3>
+            <h3 className="text-xl font-bold mb-4">Aman Raghav</h3>
             <p className="text-muted-foreground text-sm">
               Data Scientist & Machine Learning Engineer specializing in building AI-powered solutions and data-driven applications.
             </p>
@@ -46,7 +46,7 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a 
-                href="https://linkedin.com/in/" 
+                href="https://www.linkedin.com/in/aman-raghav-0a1a19289/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -55,7 +55,7 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:contact@example.com" 
+                href="mailto:amanraghav19722@gmail.com" 
                 className="hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -67,7 +67,7 @@ const Footer = () => {
         
         <div className="border-t mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            &copy; {currentYear} Aman S. All rights reserved.
+            &copy; {currentYear} Aman Raghav All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground mt-2 md:mt-0">
             Built with Next.js & Tailwind CSS

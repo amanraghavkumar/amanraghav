@@ -10,6 +10,19 @@ import { useRouter } from 'next/navigation';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { Project } from '@/lib/projects-data';
 
+// const handleResumeClick = () => {
+//   Open resume in new tab
+//   window.open('/public/aman_resume.pdf', '_blank');
+
+//   // Download resume
+//   const link = document.createElement('a');
+//   link.href = '/public/aman_resume.pdf';
+//   link.download = 'Aman_Raghav_Resume.pdf';
+//   document.body.appendChild(link);
+//   link.click();
+//   document.body.removeChild(link);
+// };
+
 interface ProjectCardProps {
   project: Project;
 }
@@ -45,9 +58,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       });
       
       if (response.ok) {
-        // Trigger the download
+        // Trigger the download   public/resumes/aman123.pdf
         window.open(`/resumes/${project.id}.pdf`, '_blank');
-        
+        // window.open(`/aman_resume.pdf`, '_blank');
         toast({
           title: "Download started",
           description: "Your download should begin shortly",
@@ -141,14 +154,14 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             </Button>
           )}
           
-          <Button 
+          {/* <Button 
             size="sm" 
             onClick={handleDownloadClick}
             aria-label="Download project files"
           >
             <Download className="mr-1 h-4 w-4" />
             Download
-          </Button>
+          </Button> */}
         </div>
       </div>
     </motion.div>

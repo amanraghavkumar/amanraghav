@@ -37,10 +37,12 @@ const Header = () => {
           transition={{ duration: 0.5 }}
           className="flex items-center gap-2"
         >
-          <Link href="/" className="text-2xl font-bold">
-            AS<span className="text-primary">.</span>
+          <Link href="/" className="text-4xl font-bold">
+            AS
+            <span className="text-primary"></span>
           </Link>
         </motion.div>
+
 
         {/* Desktop Navigation */}
         <motion.nav 

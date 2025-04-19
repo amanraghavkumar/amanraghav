@@ -86,6 +86,7 @@ const HeroSection = () => {
               >
                 <Linkedin className="h-5 w-5" />
               </a>
+              
             </motion.div>
           </div>
 
@@ -98,9 +99,10 @@ const HeroSection = () => {
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 p-1">
               <div className="rounded-xl h-full w-full overflow-hidden bg-muted/50 flex items-center justify-center">
                 <img 
-                  src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="aman.png"
                   alt="Abstract Data Visualization" 
-                  className="w-full h-full object-cover"
+                  // className="w-full h-full object-cover"
+                  className="w-[450px] h-[450px] rounded-xl object-cover"
                 />
               </div>
             </div>
