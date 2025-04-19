@@ -12,10 +12,10 @@
 # next.js
 /.next/
 /out/
-
+.git
 # production
 /build
-
+.next
 # misc
 .DS_Store
 *.pem

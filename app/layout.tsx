@@ -10,7 +10,7 @@ import { AuthProvider } from '@/components/AuthProvider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Aman S | Data Scientist & ML Engineer',
+  title: 'Aman Raghav| Data Scientist & ML Engineer',
   description: 'Personal portfolio of Aman, showcasing data science and machine learning projects',
 };
 
