@@ -17,7 +17,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui/form';
+} 
+from '@/components/ui/form';
 import { useToast } from '@/components/ui/use-toast';
 
 const formSchema = z.object({
@@ -54,6 +55,7 @@ export default function Login() {
       
       if (result?.error) {
         toast({
+          
           title: "Login failed",
           description: "Invalid email or password",
           variant: "destructive",
