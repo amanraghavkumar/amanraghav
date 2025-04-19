@@ -29,7 +29,7 @@ const HeroSection = () => {
                 <SignatureAnimation />
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-2">
-                Aman S.
+                Aman Raghav
               </h1>
               <h2 className="text-xl md:text-2xl font-medium text-muted-foreground mb-4">
                 Data Scientist & ML Engineer
